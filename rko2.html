@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kenrich Super Market</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+
+    header {
+      background: #1e88e5;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #1565c0;
+    }
+
+    nav a {
+      color: #fff;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    nav a:hover {
+      background: #0d47a1;
+    }
+
+    .section {
+      display: none;
+      padding: 40px;
+    }
+
+    .active {
+      display: block;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+
+    <h1>KENRICH SUPER MARKET</h1>
+<marquee behavior="alternate" direction="side" height="100" bgcolor="#fffee"> 
+<mark> WELCOME TO KENRICH SUPER MARKET</mark>with .</marquee>
+    <p>Your one‑stop shop for daily needs.</p>
+  </header>
+
+  <nav>
+    <a href="#home" onclick="showSection('home')">Home</a>
+<a href="#products" onclick="showSection('products')">Products</a>
+<a href="#about" onclick="showSection('about')">About Us</a>
+<a href="#contact" onclick="showSection('contact')">Contact</a>
+</nav>
+  </nav>
+
+  <div id="home" class="section active">
+    <div class="card">
+<marquee behavior="side" direction="up" height="100" bgcolor="#fffee">
+      <h2>THIS IS KENRICH SUPER MARKET</h2></marquee>
+<mark></mark>.</marquee>
+      <p>
+<img src="C:\Users\ST.JULIANA\Desktop\IMAGES/download.jpg" alt="">
+<img src="C:\Users\ST.JULIANA\Desktop\IMAGES/download (5).jpg" alt="">
+<img src="C:\Users\ST.JULIANA\Desktop\IMAGES/FRUT.webp
+." alt="">
+Welcome to the home next to your home here at ken rich we are specialised in all kinds of goodies eg fruits, drinks,food both local and snacks,
+cloths for all gender and children feel free feel at home.
+      </p>
+      <p>
+        Explore our product categories and learn more about who we are.<td colspan="3" ><center>1</center></td>
+      </p>
+    </div>
+  </div>
+
+  <div id="products" class="section">
+    <div class="card">
+      <h2>Our Products</h2>
+      <ul>
+        <li>FRESH PRODUCE</li>
+        <li>DAIRY PRODUCTS</li>
+        <li>BEVERAGES</li>
+        <li>SNACKS</li>
+        <li>HOUSE HOLD SUPPLIES</li>
+        
+<li>SHOES</li>
+<li>MENS WEAR</li>
+<li>TOYS</li>
+<li>DOLLS</li>
+<li>SANDLES</li>
+<li>KITCHEN WARE</li>
+<li>WOMENS WARE</li>
+      </ul>
+    </div>
+</div>
+<div id="about" class="section"><mark></mark>.</marquee>
+ <div class="card">
+<h2>About Us</h2>
+ <p>
+<marquee behavior="alternate" direction="up" height="200" bgcolor="#fffee">
+<mark> Kenrich Super Market has been serving customers with premium products and exceptional
+customer service. Our mission is to make shopping easy, convenient, and enjoyable.  </mark>.</marquee>
+</p>
+</div>
+</div>
+
+<div id="contact" class="section">
+    <div class="card">
+      <h2>Contact Information</h2>
+      <p>Email: kenrichsupermarket@example.com</p>
+      <p>Phone: +256751075559</p>
+      <p>Location: busabala road.</p>
+</div>
+</div>
+<script>
+function showSection(sectionId) {
+const sections = document.querySelectorAll('.section');
+sections.forEach(sec => sec.classList.remove('active'));
+document.getElementById(sectionId).classList.add('active');
+}
+  </script>
+<footer>MUYINDA KENETH BAIT/25W/U/A1490</footer>
+</body>
+</html>
